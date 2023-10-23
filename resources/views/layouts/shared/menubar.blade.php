@@ -47,7 +47,7 @@
         <label tabindex="0">Course Details</label>
         <ul tabindex="0" class="dropdown-content z-50 menu p-2 shadow-lg bg-white rounded-lg w-52">
           <li><a href="{{url('/basic-autocad')}}">AutoCAD Course</a></li>
-          <li><a href="{{url('/programming-courses')}}">Programming Courses</a></li>
+          <li><a href="{{url('/javascript')}}">Programming Courses</a></li>
           <li><a href="{{url('/graphic-design-courses')}}">Graphic Design Courses</a></li>
           <li><a href="{{url('/mep-courses')}}">MEP Courses</a></li>
         </ul>

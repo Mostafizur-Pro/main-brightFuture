@@ -18,52 +18,61 @@
     <div>
         <h1 class="text-2xl font-bold">Categories</h1>
         <div class=" my-2 ">
-            <li className="my-5">
+            <li class="my-3 text-xl">
                 <a href="{{url('/basic-autocad')}}">Basic AutoCAD 2D </a>
             </li>
-            <li className="my-5">
+            <li class="my-3 text-xl">
                 <a href="{{url('/advance-autocad')}}">Advanced AutoCAD 2D </a>
             </li>
-            <li className="my-5">
+            <li class="my-3 text-xl">
                 <a href="{{url('/basic-autocad-3d')}}">Basic AutoCAD 3D </a>
             </li>
-            <li className="my-5">
+            <li class="my-3 text-xl">
                 <a href="{{url('/basic-sketchup-3d')}}">Basic SketchUp 3D </a>
             </li>
         </div>
     </div>
     <hr class="my-10" />
     <div>
-        <h1 class="text-2xl font-bold mb-5">Latest Posts</h1>
+        <h1 class="text-2xl font-bold mb-5">Other's Course</h1>
 
         <div class="grid grid-cols-4 gap-3">
             <figure class="col-span-1">
-                <img class="h-5/6" src={image01} alt="blog" />
+                <img class="h-5/6" src="{{url('assets/category/autocad.png')}}" alt="blog" />
             </figure>
             <div class="col-span-3">
-                <h2 class="font-bold">Light Solutions For Interior</h2>
-                <p class="text-gray-400">April 4, 2023</p>
+                <a href="{{url('basic-autocad')}}" class="font-bold">AutoCAD Course</a>
+                <!-- <p class="text-gray-400">April 4, 2023</p> -->
+            </div>
+        </div>
+        <div class="grid grid-cols-4 gap-3">
+            <figure class="col-span-1">
+                <img class="h-5/6" src="{{url('assets/category/program.jpg')}}" alt="blog" />
+            </figure>
+            <div class="col-span-3">
+                <a href="{{url('javascript')}}" class="font-bold">Programming Course</a>
+                <!-- <p class="text-gray-400">April 4, 2023</p> -->
             </div>
         </div>
         <div class="grid grid-cols-4 gap-3 mt-5">
             <figure class="col-span-1">
-                <img cclass="h-5/6" src={image02} alt="blog" />
+                <img class="h-5/6" src="{{url('assets/category/photoshop.png')}}" alt="blog" />
             </figure>
             <div class="col-span-3">
-                <h2 class="font-bold">Light Solutions For Interior</h2>
-                <p class="text-gray-400">April 4, 2023</p>
+                <h2 class="font-bold">Graphic Design Course</h2>
+                <!-- <p class="text-gray-400">April 4, 2023</p> -->
             </div>
         </div>
         <div class="grid grid-cols-4 gap-3 mt-5">
             <figure class="col-span-1">
-                <img class="h-5/6" src={image03} alt="blog" />
+                <img class="h-5/6" src="{{url('assets/category/mep.jpeg')}}" alt="blog" />
             </figure>
             <div class="col-span-3">
-                <h2 class="font-bold">Light Solutions For Interior</h2>
-                <p class="text-gray-400">April 4, 2023</p>
+                <h2 class="font-bold">Mep Course</h2>
+                <!-- <p class="text-gray-400">April 4, 2023</p> -->
             </div>
         </div>
-        <div class="grid grid-cols-4 gap-3 mt-5">
+        <!-- <div class="grid grid-cols-4 gap-3 mt-5">
             <figure class="col-span-1">
                 <img class="h-5/6" src={image04} alt="blog" />
             </figure>
@@ -71,6 +80,6 @@
                 <h2 class="font-bold">Light Solutions For Interior</h2>
                 <p class="text-gray-400">April 4, 2023</p>
             </div>
-        </div>
+        </div> -->
     </div>
 </div>

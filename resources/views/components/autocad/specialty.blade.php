@@ -14,54 +14,68 @@
     }
 </style>
 
-
-<div class="text-center pt-20 ">
- 
+<div class="text-center pt-20">
     <h1 class="text-3xl font-bold mb-10">What Is The Specialty Of This Course?</h1>
-   
 </div>
 
 <div class="container mx-auto grid grid-cols-1 sm:grid-cols-2 md:grid-cols-2 lg:grid-cols-3 gap-10">
     <!-- image 1 -->
-    <div class="w-full sm:w-96 bg-base-100 shadow-xl card">
-        <figure class="px-10 pt-10">
-            <img src="/images/stock/photo-1606107557195-0e29a4b5b4aa.jpg" alt="Shoes" class="rounded-xl w-full" />
+    <div class="w-full bg-base-100 shadow-xl card">
+        <figure class="mt-5 ">
+            <img src="/assets/autocad/specialty/live.png" alt="live" class=" w-20 rounded-full bg-white" />
         </figure>
         <div class="card-body items-center text-center">
-            <h2 class="card-title">Shoes!</h2>
-            <p>If a dog chews shoes whose shoes does he choose?</p>
-            <div class="card-actions">
-                <button class="btn btn-primary">Buy Now</button>
-            </div>
+            <h2 class="card-title">Live Online Classes</h2>
+            <p class="text-justify">The course is conducted through 15 live online classes, providing students with the opportunity to interact with expert instructors in real-time. This allows for immediate clarification of doubts and a more engaging learning experience.</p>
         </div>
     </div>
     <!-- image 2 -->
-    <div class="w-full sm:w-96 bg-base-100 shadow-xl card">
-        <figure class="px-10 pt-10">
-            <img src="/images/stock/photo-1606107557195-0e29a4b5b4aa.jpg" alt="Shoes" class="rounded-xl w-full" />
+    <div class="w-full bg-base-100 shadow-xl card">
+        <figure class="mt-5 ">
+            <img src="/assets/autocad/specialty/progress.png" alt="progress" class=" w-20 rounded-full bg-white" />
         </figure>
         <div class="card-body items-center text-center">
-            <h2 class="card-title">Shoes!</h2>
-            <p>If a dog chews shoes whose shoes does he choose?</p>
-            <div class="card-actions">
-                <button class="btn btn-primary">Buy Now</button>
-            </div>
+            <h2 class="card-title">Progress Assessment</h2>
+            <p class="text-justify">Throughout the course, students are continually assessed. Homework assignments at the end of each class help reinforce learning, while three major assignments are included to evaluate their progress.</p>
         </div>
     </div>
     <!-- image 3 -->
-    <div class="w-full sm:w-96 bg-base-100 shadow-xl card">
-        <figure class="px-10 pt-10">
-            <img src="/images/stock/photo-1606107557195-0e29a4b5b4aa.jpg" alt="Shoes" class="rounded-xl w-full" />
+    <div class="w-full bg-base-100 shadow-xl card">
+        <figure class="mt-5 ">
+            <img src="/assets/autocad/specialty/structure.png" alt="structure" class=" w-20 rounded-full bg-white" />
         </figure>
         <div class="card-body items-center text-center">
-            <h2 class="card-title">Shoes!</h2>
-            <p>If a dog chews shoes whose shoes does he choose?</p>
-            <div class="card-actions">
-                <button class="btn btn-primary">Buy Now</button>
-            </div>
+            <h2 class="card-title">Structured Course Outline</h2>
+            <p class="text-justify">The course is divided into three phases. The initial phase covers fundamental AutoCAD topics, followed by more advanced topics, and finally, a comprehensive final assignment to apply the knowledge gained.</p>
         </div>
     </div>
-    
+    <div class="w-full bg-base-100 shadow-xl card">
+        <figure class="mt-5 ">
+            <img src="/assets/autocad/specialty/recording.png" alt="recording" class=" w-20 rounded-full bg-white" />
+        </figure>
+        <div class="card-body items-center text-center">
+            <h2 class="card-title">Screen Recording</h2>
+            <p class="text-justify">Each class is recorded and published online, allowing students to revisit the material and catch up on any missed classes. This feature is valuable for reinforcement and review.</p>
+        </div>
+    </div>
+    <div class="w-full bg-base-100 shadow-xl card">
+        <figure class="mt-5 ">
+            <img src="/assets/autocad/specialty/instructor.png" alt="instructor" class=" w-20 rounded-full bg-white" />
+        </figure>
+        <div class="card-body items-center text-center">
+            <h2 class="card-title">Expert Instructors</h2>
+            <p class="text-justify">The course is led by a team of expert instructors who are well-versed in AutoCAD and deep learning techniques. Their expertise ensures that students receive high-quality education.</p>
+        </div>
+    </div>
+    <div class="w-full bg-base-100 shadow-xl card">
+        <figure class="mt-5 ">
+            <img src="/assets/autocad/specialty/inspiration.png" alt="inspiration" class=" w-20 rounded-full bg-white" />
+        </figure>
+        <div class="card-body items-center text-center">
+            <h2 class="card-title">Inspiration and Empowerment</h2>
+            <p class="text-justify">The institute not only focuses on training but also aims to inspire and empower students to shape the digital world of tomorrow. This broader vision encourages learners to think beyond the coursework and envision their roles in the technology industry.</p>
+        </div>
+    </div>
 </div>
 
 
