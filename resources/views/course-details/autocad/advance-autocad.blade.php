@@ -1,5 +1,6 @@
 @extends('autocad')
 @section('autocad')
+@include('components/autocad/courseDetails')
 <div>
 
    <h1 class="text-5xl font-bold text-center">Advanced AutoCAD 2D</h1>

@@ -1,6 +1,5 @@
 <div>
-
-   <h1 class="text-3xl font-bold text-center">Basic AutoCAD 2d </h1>
+   <h1 class="text-3xl font-bold text-center">Basic to Advanced AutoCAD 2D</h1>
 
    <div class="collapse collapse-arrow bg-base-200 mt-10">
       <input type="radio" name="my-accordion-2" checked="checked" />
@@ -13,13 +12,13 @@
          <li>Basic Drawing and editing commands</li>
          <li>Line, PolyLine, Rectangle, Circle, Arc commands</li>
          <li>Basic editing commands (Erase, Copy, Move, save, etc.)</li>
-
       </div>
    </div>
+
    <div class="collapse collapse-arrow bg-base-200 my-5">
       <input type="radio" name="my-accordion-2" />
       <div class="collapse-title text-xl font-medium">
-         Module 2: Modifying Objects in AutoCAD
+         Module 2: Modifying Objects - Part I
       </div>
       <div class="collapse-content">
          <li>Mirror, Rotate, Array Commands</li>
@@ -27,43 +26,44 @@
          <li>Using object snaps</li>
       </div>
    </div>
+
    <div class="collapse collapse-arrow bg-base-200 my-5">
       <input type="radio" name="my-accordion-2" />
       <div class="collapse-title text-xl font-medium">
-         Module 3: Modifying Objects in AutoCAD
+         Module 3: Modifying Objects - Part II
       </div>
       <div class="collapse-content">
          <li>Polygon, Ellipse, Stretch, Explode, Block</li>
          <li>Boundary, Text, Scale, Write Block</li>
          <li>Grid and snap Settings</li>
-
       </div>
    </div>
+
    <div class="collapse collapse-arrow bg-base-200 my-5">
       <input type="radio" name="my-accordion-2" />
       <div class="collapse-title text-xl font-medium">
          Module 4: Layers and Properties Setup
       </div>
       <div class="collapse-content">
-         <li>Unite Setup</li>
+         <li>Unit Setup</li>
          <li>Dimension Style Manager</li>
-         <li>Limits </li>
-
+         <li>Limits</li>
       </div>
    </div>
+
    <div class="collapse collapse-arrow bg-base-200 my-5">
       <input type="radio" name="my-accordion-2" />
       <div class="collapse-title text-xl font-medium">
-         Module 5: Layers and Properties
+         Module 5: Layers and Properties Details
       </div>
       <div class="collapse-content">
          <li>Managing layers</li>
          <li>Assigning object properties (color, line type)</li>
          <li>Layer states and layer properties</li>
          <li>Layer filters</li>
-
       </div>
    </div>
+
    <div class="collapse collapse-arrow bg-base-200 my-5">
       <input type="radio" name="my-accordion-2" />
       <div class="collapse-title text-xl font-medium">
@@ -76,29 +76,30 @@
          <li>Multiline text (MTEXT)</li>
       </div>
    </div>
+
    <div class="collapse collapse-arrow bg-base-200 my-5">
       <input type="radio" name="my-accordion-2" />
       <div class="collapse-title text-xl font-medium">
-         Module 7: Dimensioning
+         Module 7: Dimensioning Details
       </div>
       <div class="collapse-content">
-         <li>Liner and angular dimensions</li>
+         <li>Linear and angular dimensions</li>
          <li>Dimension styles</li>
          <li>Dimensioning best practices</li>
       </div>
    </div>
+
    <div class="collapse collapse-arrow bg-base-200 my-5">
       <input type="radio" name="my-accordion-2" />
       <div class="collapse-title text-xl font-medium">
-         Module 8: Layouts and Printing
+         Module 8: Layouts Details
       </div>
       <div class="collapse-content">
          <li>Creating and managing layouts</li>
          <li>Setting up viewports</li>
-         <li>Plotting and printing drawings</li>
-         <li>Page setups and plot styles</li>
       </div>
    </div>
+
    <div class="collapse collapse-arrow bg-base-200 my-5">
       <input type="radio" name="my-accordion-2" />
       <div class="collapse-title text-xl font-medium">
@@ -111,18 +112,18 @@
          <li>Xref best practices</li>
       </div>
    </div>
+
    <div class="collapse collapse-arrow bg-base-200 my-5">
       <input type="radio" name="my-accordion-2" />
       <div class="collapse-title text-xl font-medium">
-         Module 10: 
+         Module 10: Printing Details
       </div>
       <div class="collapse-content">
-         <li></li>
-         <li></li>
-         <li></li>
-         <li></li>
+         <li>Plotting and printing drawings</li>
+         <li>Page setups and plot styles</li>
       </div>
    </div>
+
    <div class="collapse collapse-arrow bg-base-200 my-5">
       <input type="radio" name="my-accordion-2" />
       <div class="collapse-title text-xl font-medium">
@@ -135,6 +136,7 @@
          <li>Tables</li>
       </div>
    </div>
+
    <div class="collapse collapse-arrow bg-base-200 my-5">
       <input type="radio" name="my-accordion-2" />
       <div class="collapse-title text-xl font-medium">
@@ -144,45 +146,45 @@
          <li>Advanced techniques for working with blocks</li>
          <li>Exploring Block attributes and dynamic blocks</li>
          <li>Using Block libraries for efficiency</li>
-         
       </div>
    </div>
+
    <div class="collapse collapse-arrow bg-base-200 my-5">
       <input type="radio" name="my-accordion-2" />
       <div class="collapse-title text-xl font-medium">
          Module 13: Advanced Layout and Model
       </div>
       <div class="collapse-content">
-         <li></li>
-         <li></li>
-         <li></li>
-         <li></li>
+         <li>Advanced layout design techniques</li>
+         <li>Model space and paper space</li>
+         <li>Viewport configurations</li>
+         <li>Creating templates</li>
       </div>
    </div>
-   <div class="collapse collapse-arrow bg-base-200 my-5">
-      <input type="radio" name="my-accordion-2" />
-      <div class="collapse-title text-xl font-medium">
-         Module 14:
-      </div>
-      <div class="collapse-content">
-         <li></li>
-         <li></li>
-         <li></li>
-         <li></li>
-      </div>
-   </div>
-   <div class="collapse collapse-arrow bg-base-200 my-5">
-      <input type="radio" name="my-accordion-2" />
-      <div class="collapse-title text-xl font-medium">
-         Module 15: AutoCAD for specializations
-      </div>
-      <div class="collapse-content">
-         <li></li>
-         <li></li>
-         <li></li>
-         <li></li>
-      </div>
-   </div>
-   
 
+   <div class="collapse collapse-arrow bg-base-200 my-5">
+      <input type="radio" name="my-accordion-2" />
+      <div class="collapse-title text-xl font-medium">
+         Module 14: Advanced Text and Dimension Tools
+      </div>
+      <div class="collapse-content">
+         <li>Advanced text formatting</li>
+         <li>Text styles and fonts</li>
+         <li>Dimension style customization</li>
+         <li>Advanced dimensioning techniques</li>
+      </div>
+   </div>
+
+   <div class="collapse collapse-arrow bg-base-200 my-5">
+      <input type="radio" name="my-accordion-2" />
+      <div class="collapse-title text-xl font-medium">
+         Module 15: AutoCAD for Specializations
+      </div>
+      <div class="collapse-content">
+         <li>Overview of AutoCAD for different industries</li>
+         <li>Specialized tools and features</li>
+         <li>Practical applications in various fields</li>
+         <li>Preparing for AutoCAD specialization</li>
+      </div>
+   </div>
 </div>
