@@ -59,7 +59,7 @@
                 <img class="h-5/6" src="{{url('assets/category/photoshop.png')}}" alt="blog" />
             </figure>
             <div class="col-span-3">
-                <h2 class="font-bold">Graphic Design Course</h2>
+                <a href="{{url('photoshop')}}"  class="font-bold">Graphic Design Course</a>
                 <!-- <p class="text-gray-400">April 4, 2023</p> -->
             </div>
         </div>
@@ -68,18 +68,10 @@
                 <img class="h-5/6" src="{{url('assets/category/mep.jpeg')}}" alt="blog" />
             </figure>
             <div class="col-span-3">
-                <h2 class="font-bold">Mep Course</h2>
+                <a href="{{url('hvac')}}"  class="font-bold">Mep Course</a>
                 <!-- <p class="text-gray-400">April 4, 2023</p> -->
             </div>
         </div>
-        <!-- <div class="grid grid-cols-4 gap-3 mt-5">
-            <figure class="col-span-1">
-                <img class="h-5/6" src={image04} alt="blog" />
-            </figure>
-            <div class="col-span-3">
-                <h2 class="font-bold">Light Solutions For Interior</h2>
-                <p class="text-gray-400">April 4, 2023</p>
-            </div>
-        </div> -->
+       
     </div>
 </div>

@@ -16,12 +16,14 @@
             <li><a href="{{url('/contact')}}">Contact</a></li>
           </ul>
         </li>
+      
         <li>
           <a>Course Details</a>
           <ul class="p-2">
-            <li><a href="{{url('/faq')}}">FAQ</a></li>
-            <li><a href="{{url('/blog')}}">Blog</a></li>
-            <li><a href="{{url('/contact')}}">Contact</a></li>
+          <li><a href="{{url('/basic-autocad')}}">AutoCAD Course</a></li>
+          <li><a href="{{url('/javascript')}}">Programming Courses</a></li>
+          <li><a href="{{url('/photoshop')}}">Graphic Design Courses</a></li>
+          <li><a href="{{url('/hvac')}}">MEP Courses</a></li>
           </ul>
         </li>
         <!-- <li><a href="{{url('/course')}}">Course Details</a></li> -->

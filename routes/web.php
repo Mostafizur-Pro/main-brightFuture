@@ -32,8 +32,16 @@ Route::get('/basic-autocad-3d', function () {
 Route::get('/basic-sketchup-3d', function () {
     return view('/course-details/autocad/basic-sketchup-3d');
 });
+
+
 Route::get('/javascript', function () {
     return view('/course-details/programming/javascript');
+});
+Route::get('/photoshop', function () {
+    return view('/course-details/graphic/photoshop');
+});
+Route::get('/hvac', function () {
+    return view('/course-details/mep/hvac');
 });
 
 Route::get('/login', function () {

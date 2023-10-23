@@ -19,23 +19,15 @@
         <h1 class="text-2xl font-bold">Categories</h1>
         <div class=" my-2 ">
             <li className="my-5">
-                <a href="{{url('/html-css-javascript')}}">HTML, CSS, JavaScript</a>
+                <a href="{{url('/photoshop')}}">Adobe PhotoShop</a>
             </li>
             <li className="my-5">
-                <a href="{{url('/javascript')}}">JavaScript</a>
+                <a href="{{url('/photoshop')}}">Adobe Illustrator</a>
             </li>
             <li className="my-5">
-                <a href="{{url('/javascript')}}">React Development </a>
+                <a href="{{url('/photoshop')}}">Adobe InDesign</a>
             </li>
-            <li className="my-5">
-                <a href="{{url('/javascript')}}">Redux Development </a>
-            </li>
-            <li className="my-5">
-                <a href="{{url('/javascript')}}">NextJS Development </a>
-            </li>
-            <li className="my-5">
-                <a href="{{url('/javascript')}}">Laravel Development </a>
-            </li>
+           
         </div>
     </div>
     <hr class="my-10" />
