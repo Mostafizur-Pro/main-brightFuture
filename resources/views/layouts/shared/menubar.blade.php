@@ -7,7 +7,7 @@
         </svg>
       </label>
       <ul tabindex="0" class="menu menu-sm dropdown-content mt-3 z-50 p-2 shadow-lg bg-white rounded-lg w-52">
-        <li><a href="{{url('/')}}">HOME</a></li>
+        <li><a href="{{url('/')}}">Home</a></li>
         <li>
           <a>Page</a>
           <ul class="p-2">
@@ -27,7 +27,7 @@
           </ul>
         </li>
         <!-- <li><a href="{{url('/course')}}">Course Details</a></li> -->
-        <li><a href="{{url('/about')}}">ABOUT</a></li>
+        <li><a href="{{url('/about')}}">About</a></li>
         <li><a href="{{url('/dashboard')}}">Dashboard</a></li>
       </ul>
     </div>
@@ -36,7 +36,7 @@
 
   <div class="navbar-center hidden lg:flex">
     <ul class="menu menu-horizontal px-1">
-      <li><a href="{{url('/')}}">HOME</a></li>
+      <li><a href="{{url('/')}}">Home</a></li>
       <li class="dropdown">
         <label tabindex="0">Page</label>
         <ul tabindex="0" class="dropdown-content z-50 menu p-2 shadow-lg bg-white rounded-lg w-52">
@@ -55,7 +55,7 @@
         </ul>
       </li>
       <!-- <li><a href="{{url('/course')}}">Course</a></li> -->
-      <li><a href="{{url('/about')}}">ABOUT</a></li>
+      <li><a href="{{url('/about')}}">About</a></li>
       <li><a href="{{url('/dashboard')}}">Dashboard</a></li>
     </ul>
   </div>
