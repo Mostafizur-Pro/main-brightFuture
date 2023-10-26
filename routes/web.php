@@ -24,6 +24,9 @@ Route::get('/about', function () {
 // Route::get('/course', function () {
 //     return view('/course');
 // });
+Route::get('/basic-autocad-free', function () {
+    return view('/course-details/autocad/basic-autocad-free');
+});
 Route::get('/basic-autocad', function () {
     return view('/course-details/autocad/basic-autocad');
 });

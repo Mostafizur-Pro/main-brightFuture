@@ -19,6 +19,9 @@
         <h1 class="text-2xl font-bold">Categories</h1>
         <div class=" my-2 ">
             <li class="my-3 text-xl">
+                <a href="{{url('/basic-autocad-free')}}">Basic AutoCAD 2D (Free)</a>
+            </li>
+            <li class="my-3 text-xl">
                 <a href="{{url('/basic-autocad')}}">Basic AutoCAD 2D </a>
             </li>
             <li class="my-3 text-xl">
