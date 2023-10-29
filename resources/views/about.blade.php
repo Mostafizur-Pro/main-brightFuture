@@ -74,6 +74,8 @@
 
 
 
+
+    
     @include('layouts/shared/footer')
 
 </body>

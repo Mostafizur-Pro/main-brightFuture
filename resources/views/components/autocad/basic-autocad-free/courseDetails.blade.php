@@ -11,7 +11,7 @@
         <div class="flex justify-center items-center gap-3">
             <figure><img src="/assets/autocad/image01.png" alt="Movie" class="w-16" /></figure>
             <div class="">
-                <h2 class="card-title">25+ Live Class</h2>
+                <h2 class="card-title">30+ Live Class</h2>
             </div>
         </div>
     </div>
@@ -27,7 +27,7 @@
         <div class="flex justify-center items-center gap-3">
             <figure><img src="/assets/autocad/image04.png" alt="Movie" class="w-16" /></figure>
             <div class="">
-                <h2 class="card-title">20+ practice tests</h2>
+                <h2 class="card-title">24+ practice tests</h2>
             </div>
         </div>
     </div>
