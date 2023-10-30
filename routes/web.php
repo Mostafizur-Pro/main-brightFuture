@@ -17,6 +17,9 @@ use Illuminate\Support\Facades\Route;
 Route::get('/', function () {
     return view('/welcome');
 });
+Route::get('/home', function () {
+    return view('/home');
+});
 
 Route::get('/about', function () {
     return view('/about');
@@ -24,6 +27,9 @@ Route::get('/about', function () {
 // Route::get('/course', function () {
 //     return view('/course');
 // });
+Route::get('/all-courses', function () {
+    return view('/course-details/all-courses/all-courses');
+});
 Route::get('/basic-autocad-free', function () {
     return view('/course-details/autocad/basic-autocad-free');
 });
