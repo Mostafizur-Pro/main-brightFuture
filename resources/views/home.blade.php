@@ -19,14 +19,16 @@
 </head>
 
 <body>
+    
     @include('layouts/shared/menubar')
-
     <div class="my-20 mx-20">
 
 
         @include('components/home/slider')
         @include('components/home/class')
         @include('components/home/onlineCourse')
+        @include('components/home/whyBest')
+        @include('components/home/admissions')
     </div>
  
     

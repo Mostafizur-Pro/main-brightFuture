@@ -1,4 +1,4 @@
-<div class="navbar bg-base-300 z-40 fixed top-0 w-full">
+<div class="navbar bg-base-300 z-40 fixed top-0 w-full ">
   <div class="navbar-start">
     <div class="dropdown">
       <label tabindex="0" class="btn btn-ghost lg:hidden">
@@ -32,7 +32,7 @@
         <li><a href="{{url('/dashboard')}}">Dashboard</a></li>
       </ul>
     </div>
-    <a href="{{url('/')}}" class="btn btn-ghost normal-case text-xl">BRIGHT FUTURE</a>
+    <a href="{{url('/')}}" class="btn btn-ghost normal-case text-xl lg:mx-20 ">BRIGHT FUTURE</a>
   </div>
 
   <div class="navbar-center hidden lg:flex">

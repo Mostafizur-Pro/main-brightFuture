@@ -1,7 +1,7 @@
 <style>
     .parent {
         width: 300px;
-        padding: 20px;
+        /* padding: 20px; */
         perspective: 1000px;
     }
 
@@ -26,8 +26,8 @@
     }
 
     .content-box {
-        background: rgba(4, 193, 250, 0.732);
-        /* background: red; */
+        /* background: rgba(4, 193, 250, 0.732); */
+        background: #5375e2;
         border-radius: 10px 50px 10px 10px;
         transition: all 0.5s ease-in-out;
         padding: 60px 25px 25px 25px;
@@ -65,7 +65,7 @@
         margin-top: 1rem;
         display: inline-block;
         font-weight: 900;
-        font-size: 9px;
+        font-size: 12px;
         text-transform: uppercase;
         color: rgb(7, 185, 255);
         /* border-radius: 5px; */
@@ -115,21 +115,7 @@
     <h2 class="text-3xl font-bold">Class 6th - 12th Offline & Online</h2>
 </div>
 <div class="container mx-auto grid grid-cols-2 sm:grid-cols-3 md:grid-cols-3 lg:grid-cols-4 gap-10">
-    <!-- <div class="parent">
-        <div class="card">
-            <div class="content-box">
-                <span class="card-title">Class 1 to 12</span>
-                <p class="card-content">
-                    Lorem ipsum dolor sit amet, consectetur adipisicing elit.
-                </p>
-                <span class="see-more">See More</span>
-            </div>
-            <div class="date-box">
-                <span class="month">JUNE</span>
-                <span class="date">29</span>
-            </div>
-        </div>
-    </div> -->
+   
     <div class="parent">
         <div class="card">
             <div class="content-box">

@@ -1,118 +1,40 @@
 <div>
-    <div class="carousel w-full mb-10">
-        <div id="slide1" class="carousel-item relative w-full">
-            <div class="hero mx-6 md:mx-16 lg:mx-24 xl:mx-32">
-                <div class="hero-content flex-col lg:flex-row-reverse">
-                    <img src="https://marketplace.canva.com/EAFLmEgfs_Q/1/0/1600w/canva-blue-geometric-business-facebook-cover-bNkBhFHH4RY.jpg" class="rounded-lg w-1/2 md:w-1/4 lg:w-2/6 lg:mr-8 xl:mr-32" alt="logo" />
-                    <div class="text-center lg:text-left">
-                        <p class="font-bold text-lg md:text-xl lg:text-2xl xl:text-2xl">Welcome to</p>
-                        <h1 class="text-2xl md:text-3xl lg:text-5xl xl:text-6xl font-bold">Shotokan Karate-Do Sports Association Bangladesh (SKSA Bangladesh)</h1>
-                        <p class="py-3 text-sm md:text-base lg:text-lg xl:text-xl">
-                            SKSA Bangladesh provides the best Shotokan Karate-Do practice to beginners and experts.
-                        </p>
-                        <a href="/about">
-                            <button class="btn btn-red-200 bg-gradient-to-r from-black to-red-400 text-white text-base md:text-lg lg:text-xl xl:text-2xl">
-                                ABOUT
-                            </button>
-                        </a>
+    <div class="carousel w-full ">       
+        <!-- slider 1 -->
+        <div id="slide1" class="carousel-item relative w-full ">
+            <div class="hero h-96" style="background-image: url('assets/home/child/image1.jpg');">
+                <div class="hero-content text-left text-neutral-content bg-neutral m-2">
+                    <div class="max-w-md ">
+                        <h1 class=" text-3xl font-bold">
+                            Bright Future is Awesome Tool <br />
+                            for School Website
+                        </h1>
+                        <p class="mb-5">Schools support the whole child, the child's <br /> family, and learning.</p>
+                        <button class="btn text-white" style="background-color: #5375e2;">Get Started</button>
+                    </div>
+                </div>
+                <div class="hero-overlay bg-opacity-60"></div>
+            </div>
+        </div>
+         <!-- slider 2 -->
+         <div id="slide2" class="carousel-item relative w-full">
+            <div class="hero h-96" style="background-image: url('assets/home/child/image2.jpg');">
+                <div class="hero-overlay bg-opacity-60"></div>
+                <div class="hero-content text-right text-neutral-content">
+                    <div class="max-w-md">
+                        <p>One Team, one Mission</p>
+                        <h1 class="mb-5 text-5xl font-bold">Knowledge</h1>
+                        <button class="btn text-white" style="background-color: #5375e2;">Get Started</button>
                     </div>
                 </div>
             </div>
 
-            <div class="absolute flex justify-between transform -translate-y-1/2 left-5 right-5 top-1/2">
-                <a href="#" class="btn bg-red-500 hover:bg-red-700 text-white btn-circle" onclick="prevSlide()">
-                    ❮
-                </a>
-                <a href="#" class="btn bg-red-500 hover:bg-red-700 text-white btn-circle" onclick="nextSlide()">
-                    ❯
-                </a>
-            </div>
-        </div>
-    </div>
-    <!-- Slide 3 -->
-    <div id="slide2" class="carousel-item relative w-full">
-        <div class="hero mx-6 md:mx-16 lg:mx-24 xl:mx-32">
-            <div class="hero-content flex-col-reverse lg:flex-row-reverse">
-                <div class="text-center lg:text-left">
-                    <p class="font-bold text-lg md:text-xl lg:text-2xl xl:text-2xl">Honorable President of SKSA Bangladesh Shihan HMNC RANA</p>
-                    <h1 class="text-2xl md:text-3xl lg:text-5xl xl:text-6xl font-bold">International Karate Championship</h1>
-                    <!-- Commented out the paragraph to prevent overlapping text -->
-                    <!-- <p class="py-3 text-sm md:text-base lg:text-lg xl:text-xl">
-                        SKSA Bangladesh provides the best Shotokan Karate-Do practice to beginners and experts.
-                    </p> -->
-                    <a href="/about">
-                        <button class="btn mt-3 md:mt-6 btn-red-200 bg-gradient-to-r from-black to-red-400 text-white text-base md:text-lg lg:text-xl xl:text-2xl">
-                            ABOUT
-                        </button>
-                    </a>
-                </div>
-                <img src="https://marketplace.canva.com/EAFLmEgfs_Q/1/0/1600w/canva-blue-geometric-business-facebook-cover-bNkBhFHH4RY.jpg" class="rounded-lg w-full md:w-1/2 lg:w-2/5 xl:w-1/2" alt="slide2" />
-            </div>
-        </div>
-        <div class="absolute flex justify-between transform -translate-y-1/2 left-5 right-5 top-1/2">
-            <a href="#" class="btn bg-red-500 hover:bg-red-700 text-white btn-circle" onclick="prevSlide()">
-                ❮
-            </a>
-            <a href="#" class="btn bg-red-500 hover:bg-red-700 text-white btn-circle" onclick="nextSlide()">
-                ❯
-            </a>
-        </div>
-    </div>
-    <!-- Slide 3 -->
-    <div id="slide3" class="carousel-item relative w-full">
-        <div class="hero mx-6 md:mx-16 lg:mx-24 xl:mx-32">
-            <div class="hero-content flex-col lg:flex-row-reverse">
-                <img src="https://marketplace.canva.com/EAFLmEgfs_Q/1/0/1600w/canva-blue-geometric-business-facebook-cover-bNkBhFHH4RY.jpg" class="rounded-lg w-full md:w-1/2 lg:w-2/5 xl:w-1/2" alt="slide3" />
-                <div class="text-center lg:text-left">
-                    <p class="font-bold text-lg md:text-xl lg:text-2xl xl:text-2xl">Organizer SKSA BANGLADESH</p>
-                    <h1 class="text-2xl md:text-3xl lg:text-5xl xl:text-6xl font-bold">Historical moment always make You Proud</h1>
-                    <p class="py-3 text-sm md:text-base lg:text-lg xl:text-xl">
-                        As one of the Joint Organizers, SKSA BANGLADESH feels honored to be a part of Bangabandhu 1st Divisional Karate Club Championship 2022 on 17 March 2022 at Chapainawabganj, Rajshahi Division, Bangladesh.
-                    </p>
-                    <a href="/about">
-                        <button class="btn btn-red-200 bg-gradient-to-r from-black to-red-400 text-white text-base md:text-lg lg:text-xl xl:text-2xl">
-                            ABOUT
-                        </button>
-                    </a>
-                </div>
-            </div>
-        </div>
-        <div class="absolute flex justify-between transform -translate-y-1/2 left-5 right-5 top-1/2">
-            <a href="#" class="btn bg-red-500 hover:bg-red-700 text-white btn-circle" onclick="prevSlide()">
-                ❮
-            </a>
-            <a href="#" class="btn bg-red-500 hover:bg-red-700 text-white btn-circle" onclick="nextSlide()">
-                ❯
-            </a>
-        </div>
-    </div>
-    <!-- Slide 4 -->
-    <div id="slide4" class="carousel-item relative w-full">
-        <div class="hero mx-6 md:mx-16 lg:mx-24 xl:mx-32">
-            <div class="hero-content flex-col-reverse lg:flex-row-reverse">
-                <div class="text-center lg:text-left">
-                    <p class="font-bold text-lg md:text-xl lg:text-2xl xl:text-2xl">17 JUNE 2023</p>
-                    <h1 class="text-2xl md:text-3xl lg:text-5xl xl:text-6xl font-bold">WORLD KARATE DAY</h1>
-                    <a href="/about">
-                        <button class="btn mt-3 md:mt-6 btn-red-200 bg-gradient-to-r from-black to-red-400 text-white text-base md:text-lg lg:text-xl xl:text-2xl">
-                            ABOUT
-                        </button>
-                    </a>
-                </div>
-                <img src="https://marketplace.canva.com/EAFLmEgfs_Q/1/0/1600w/canva-blue-geometric-business-facebook-cover-bNkBhFHH4RY.jpg" class="rounded-lg w-full md:w-1/2 lg:w-2/5 xl:w-1/2" alt="slide4" />
-            </div>
         </div>
 
-        <div class="absolute flex justify-between transform -translate-y-1/2 left-5 right-5 top-1/2">
-            <a href="#" class="btn bg-red-500 hover:bg-red-700 text-white btn-circle" onclick="prevSlide()">
-                ❮
-            </a>
-            <a href="#" class="btn bg-red-500 hover:bg-red-700 text-white btn-circle" onclick="nextSlide()">
-                ❯
-            </a>
-        </div>
+
+
+
     </div>
-</div>
 </div>
 
 
@@ -120,8 +42,8 @@
 
 <script>
     let currentSlide = 1;
-    const totalSlides = 4;
-    const slideInterval = 10000;
+    const totalSlides = 2;
+    const slideInterval = 5000;
 
     function showSlide(slideNumber) {
         document.querySelectorAll('.carousel-item').forEach((slide) => {
