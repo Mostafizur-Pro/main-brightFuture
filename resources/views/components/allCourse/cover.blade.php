@@ -1,5 +1,5 @@
 
-<div class="hero h-64" style="background-image: url(assets/cover-photo/autocad.jpg);">
+<div class="hero h-96" style="background-image: url(assets/cover-photo/allCourse.jpg);">
   <div class="hero-overlay bg-opacity-20"></div>
   
   <div class="hero-content text-left text-neutral-content">
