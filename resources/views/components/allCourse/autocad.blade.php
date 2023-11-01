@@ -1,6 +1,6 @@
 <div class="mx-10 my-10">
     <div>
-        <h1 class="text-5xl mb-5 font-bold text-left">Latest Courses</h1>
+        <h1 class="text-5xl mb-5 font-bold text-left">AutoCAD Courses</h1>
     </div>
 
     <div class="grid grid-cols-3 gap-10">
