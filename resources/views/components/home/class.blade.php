@@ -27,7 +27,8 @@
 
     .content-box {
         background: rgba(4, 193, 250, 0.732);
-        /* border-radius: 10px 100px 10px 10px; */
+        /* background: red; */
+        border-radius: 10px 50px 10px 10px;
         transition: all 0.5s ease-in-out;
         padding: 60px 25px 25px 25px;
         transform-style: preserve-3d;
@@ -110,13 +111,32 @@
     }
 </style>
 
+<div class="text-center my-10">
+    <h2 class="text-3xl font-bold">Class 6th - 12th Offline & Online</h2>
+</div>
 <div class="container mx-auto grid grid-cols-2 sm:grid-cols-3 md:grid-cols-3 lg:grid-cols-4 gap-10">
+    <!-- <div class="parent">
+        <div class="card">
+            <div class="content-box">
+                <span class="card-title">Class 1 to 12</span>
+                <p class="card-content">
+                    Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+                </p>
+                <span class="see-more">See More</span>
+            </div>
+            <div class="date-box">
+                <span class="month">JUNE</span>
+                <span class="date">29</span>
+            </div>
+        </div>
+    </div> -->
     <div class="parent">
         <div class="card">
             <div class="content-box">
-                <span class="card-title">3D Card</span>
+                <span class="card-title">Class 1 to 5</span>
                 <p class="card-content">
-                    Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+                    All Subjects
+                    <!-- All Subject, Math, English,  -->
                 </p>
                 <span class="see-more">See More</span>
             </div>
@@ -129,9 +149,10 @@
     <div class="parent">
         <div class="card">
             <div class="content-box">
-                <span class="card-title">3D Card</span>
+                <span class="card-title">Class 6 to 8</span>
                 <p class="card-content">
-                    Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+                    4 Subjects
+                    <!-- Bangla, English, Math, Science -->
                 </p>
                 <span class="see-more">See More</span>
             </div>
@@ -144,9 +165,10 @@
     <div class="parent">
         <div class="card">
             <div class="content-box">
-                <span class="card-title">3D Card</span>
+                <span class="card-title">Class 9 to 10</span>
                 <p class="card-content">
-                    Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+                    8 Subjects
+                    <!-- Bangla, English, General Math, Higher Math, Chemistry, Physics, Biology, Accounting -->
                 </p>
                 <span class="see-more">See More</span>
             </div>
@@ -159,24 +181,10 @@
     <div class="parent">
         <div class="card">
             <div class="content-box">
-                <span class="card-title">3D Card</span>
+                <span class="card-title">Class 11 to 12</span>
                 <p class="card-content">
-                    Lorem ipsum dolor sit amet, consectetur adipisicing elit.
-                </p>
-                <span class="see-more">See More</span>
-            </div>
-            <div class="date-box">
-                <span class="month">JUNE</span>
-                <span class="date">29</span>
-            </div>
-        </div>
-    </div>
-    <div class="parent">
-        <div class="card">
-            <div class="content-box">
-                <span class="card-title">3D Card</span>
-                <p class="card-content">
-                    Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+                    8 Subject
+                    <!-- Bangla, English, ICT, Chemistry, Physics, Higher Math, Biology, Accounting -->
                 </p>
                 <span class="see-more">See More</span>
             </div>

@@ -196,7 +196,7 @@
                             </g>
 
                         </svg>
-                        <strong>Hover Me</strong>
+                        <strong>AutoCAD</strong>
                     </div>
                 </div>
                 <div class="front">
@@ -250,7 +250,7 @@
                             </g>
 
                         </svg>
-                        <strong>Hover Me</strong>
+                        <strong>Programming</strong>
                     </div>
                 </div>
                 <div class="front">
