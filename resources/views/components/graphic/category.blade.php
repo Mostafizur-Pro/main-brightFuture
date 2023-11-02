@@ -19,13 +19,13 @@
         <h1 class="text-2xl font-bold">Categories</h1>
         <div class=" my-2 ">
             <li className="my-5">
-                <a href="{{url('/photoshop')}}">Adobe PhotoShop</a>
+                <a href="{{url('/graphic/photoshop')}}">Adobe PhotoShop</a>
             </li>
             <li className="my-5">
-                <a href="{{url('/photoshop')}}">Adobe Illustrator</a>
+                <a href="{{url('/graphic/illustrator')}}">Adobe Illustrator</a>
             </li>
             <li className="my-5">
-                <a href="{{url('/photoshop')}}">Adobe InDesign</a>
+                <a href="{{url('/graphic/indesign')}}">Adobe InDesign</a>
             </li>
            
         </div>

@@ -23,7 +23,7 @@
 
 
     <div class="my-20">
-        @section('graphic-cover', 'graphic Course')
+        @section('graphic-cover', 'Graphic Course')
         @include('components/graphic/cover')
 
     

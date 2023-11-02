@@ -22,16 +22,16 @@
                 <a href="{{url('/basic-autocad-free')}}">Basic AutoCAD 2D (Free)</a>
             </li> -->
             <li class="my-3 text-xl">
-                <a href="{{url('/basic-autocad')}}">Basic AutoCAD 2D </a>
+                <a href="{{url('/autocad/basic-autocad')}}">Basic AutoCAD 2D </a>
             </li>
             <li class="my-3 text-xl">
-                <a href="{{url('/advance-autocad')}}">Advanced AutoCAD 2D </a>
+                <a href="{{url('/autocad/advance-autocad')}}">Advanced AutoCAD 2D </a>
             </li>
             <li class="my-3 text-xl">
-                <a href="{{url('/basic-autocad-3d')}}">Basic AutoCAD 3D </a>
+                <a href="{{url('/autocad/basic-autocad-3d')}}">Basic AutoCAD 3D </a>
             </li>
             <li class="my-3 text-xl">
-                <a href="{{url('/basic-sketchup-3d')}}">Basic SketchUp 3D </a>
+                <a href="{{url('/autocad/basic-sketchup-3d')}}">Basic SketchUp 3D </a>
             </li>
         </div>
     </div>

@@ -6,7 +6,7 @@
                 <img class="h-5/6" src="{{url('assets/category/autocad.png')}}" alt="blog" />
             </figure>
             <div class="col-span-3">
-                <a href="{{url('basic-autocad')}}" class="font-bold">AutoCAD Course</a>
+                <a href="{{url('/autocad/basic-autocad')}}" class="font-bold">AutoCAD Course</a>
                 <!-- <p class="text-gray-400">April 4, 2023</p> -->
             </div>
         </div>
@@ -15,7 +15,7 @@
                 <img class="h-5/6" src="{{url('assets/category/program.jpg')}}" alt="blog" />
             </figure>
             <div class="col-span-3">
-                <a href="{{url('javascript')}}" class="font-bold">Programming Course</a>
+                <a href="{{url('/programming/javascript')}}" class="font-bold">Programming Course</a>
                 <!-- <p class="text-gray-400">April 4, 2023</p> -->
             </div>
         </div>
@@ -24,7 +24,7 @@
                 <img class="h-5/6" src="{{url('assets/category/photoshop.png')}}" alt="blog" />
             </figure>
             <div class="col-span-3">
-                <a href="{{url('photoshop')}}"  class="font-bold">Graphic Design Course</a>
+                <a href="{{url('/graphic/photoshop')}}"  class="font-bold">Graphic Design Course</a>
                 <!-- <p class="text-gray-400">April 4, 2023</p> -->
             </div>
         </div>
