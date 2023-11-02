@@ -1,13 +1,11 @@
 <style>
     .parent {
-        width: 300px;
-        /* padding: 20px; */
-        perspective: 1000px;
+        width: 250px;
+        perspective: 800px;
     }
 
     .card {
-        padding-top: 50px;
-        /* border-radius: 10px; */
+        padding-top: 30px;
         border: 3px solid rgb(255, 255, 255);
         transform-style: preserve-3d;
         background: linear-gradient(135deg, #0000 18.75%, #f3f3f3 0 31.25%, #0000 0),
@@ -26,7 +24,6 @@
     }
 
     .content-box {
-        /* background: rgba(4, 193, 250, 0.732); */
         background: #5375e2;
         border-radius: 10px 50px 10px 10px;
         transition: all 0.5s ease-in-out;
@@ -40,11 +37,10 @@
         font-size: 25px;
         font-weight: 900;
         transition: all 0.5s ease-in-out;
-        transform: translate3d(0px, 0px, 50px);
     }
 
     .content-box .card-title:hover {
-        transform: translate3d(0px, 0px, 60px);
+        transform: translate3d(0px, 0px, 50px);
     }
 
     .content-box .card-content {
@@ -53,11 +49,10 @@
         font-weight: 700;
         color: #f2f2f2;
         transition: all 0.5s ease-in-out;
-        transform: translate3d(0px, 0px, 30px);
     }
 
     .content-box .card-content:hover {
-        transform: translate3d(0px, 0px, 60px);
+        transform: translate3d(0px, 0px, 30px);
     }
 
     .content-box .see-more {
@@ -68,15 +63,13 @@
         font-size: 12px;
         text-transform: uppercase;
         color: rgb(7, 185, 255);
-        /* border-radius: 5px; */
         background: white;
         padding: 0.5rem 0.7rem;
         transition: all 0.5s ease-in-out;
-        transform: translate3d(0px, 0px, 20px);
     }
 
     .content-box .see-more:hover {
-        transform: translate3d(0px, 0px, 60px);
+        transform: translate3d(0px, 0px, 20px);
     }
 
     .date-box {
@@ -87,9 +80,8 @@
         width: 60px;
         background: white;
         border: 1px solid rgb(7, 185, 255);
-        /* border-radius: 10px; */
         padding: 10px;
-        transform: translate3d(0px, 0px, 80px);
+        transform: translate3d(0px, 0px, 40px);
         box-shadow: rgba(100, 100, 111, 0.2) 0px 17px 10px -10px;
     }
 
@@ -114,7 +106,7 @@
 <div class="text-center my-10">
     <h2 class="text-3xl font-bold">Class 6th - 12th Offline & Online</h2>
 </div>
-<div class="container mx-auto grid grid-cols-2 sm:grid-cols-3 md:grid-cols-3 lg:grid-cols-4 gap-10">
+<div class="container mx-auto grid grid-cols-2 sm:grid-cols-3 md:grid-cols-3 lg:grid-cols-4 gap-5">
    
     <div class="parent">
         <div class="card">
@@ -122,7 +114,6 @@
                 <span class="card-title">Class 1 to 5</span>
                 <p class="card-content">
                     All Subjects
-                    <!-- All Subject, Math, English,  -->
                 </p>
                 <span class="see-more">See More</span>
             </div>
@@ -138,7 +129,6 @@
                 <span class="card-title">Class 6 to 8</span>
                 <p class="card-content">
                     4 Subjects
-                    <!-- Bangla, English, Math, Science -->
                 </p>
                 <span class="see-more">See More</span>
             </div>
@@ -154,7 +144,6 @@
                 <span class="card-title">Class 9 to 10</span>
                 <p class="card-content">
                     8 Subjects
-                    <!-- Bangla, English, General Math, Higher Math, Chemistry, Physics, Biology, Accounting -->
                 </p>
                 <span class="see-more">See More</span>
             </div>
@@ -169,8 +158,7 @@
             <div class="content-box">
                 <span class="card-title">Class 11 to 12</span>
                 <p class="card-content">
-                    8 Subject
-                    <!-- Bangla, English, ICT, Chemistry, Physics, Higher Math, Biology, Accounting -->
+                    8 Subjects
                 </p>
                 <span class="see-more">See More</span>
             </div>

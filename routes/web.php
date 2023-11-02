@@ -53,9 +53,24 @@ Route::get('/javascript', function () {
 Route::get('/photoshop', function () {
     return view('/course-details/graphic/photoshop');
 });
-Route::get('/hvac', function () {
-    return view('/course-details/mep/hvac');
+
+Route::group(['prefix' => '/mep', 'namespace' => 'mep'], function () {
+    Route::get('/hvac', function () {
+        return view('/course-details/mep/hvac');
+    });
+    Route::get('/electrical', function () {
+        return view('/course-details/mep/electrical');
+    });
+    Route::get('/plumbing', function () {
+        return view('/course-details/mep/plumbing');
+    });
+    Route::get('/fire', function () {
+        return view('/course-details/mep/fire');
+    });
 });
+
+
+
 
 Route::get('/login', function () {
     return view('/auth/login');

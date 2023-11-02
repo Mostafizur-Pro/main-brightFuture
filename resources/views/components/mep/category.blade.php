@@ -19,60 +19,20 @@
         <h1 class="text-2xl font-bold">Categories</h1>
         <div class=" my-2 ">
             <li className="my-5">
-                <a href="{{url('/hvac')}}">HVAC Design</a>
+                <a href="{{url('/mep/hvac')}}">HVAC Design</a>
             </li>
             <li className="my-5">
-                <a href="{{url('/hvac')}}">Elecrical Design</a>
+                <a href="{{url('/mep/electrical')}}">Elecrical Design</a>
             </li>
             <li className="my-5">
-                <a href="{{url('/hvac')}}">Plumbing Design</a>
+                <a href="{{url('/mep/plumbing')}}">Plumbing Design</a>
             </li>
             <li className="my-5">
-                <a href="{{url('/hvac')}}">Fire Design</a>
+                <a href="{{url('/mep/fire')}}">Fire Design</a>
             </li>
            
         </div>
     </div>
     <hr class="my-10" />
-    <div>
-        <h1 class="text-2xl font-bold mb-5">Other's Course</h1>
-
-        <div class="grid grid-cols-4 gap-3">
-            <figure class="col-span-1">
-                <img class="h-5/6" src="{{url('assets/category/autocad.png')}}" alt="blog" />
-            </figure>
-            <div class="col-span-3">
-                <a href="{{url('basic-autocad')}}" class="font-bold">AutoCAD Course</a>
-                <!-- <p class="text-gray-400">April 4, 2023</p> -->
-            </div>
-        </div>
-        <div class="grid grid-cols-4 gap-3">
-            <figure class="col-span-1">
-                <img class="h-5/6" src="{{url('assets/category/program.jpg')}}" alt="blog" />
-            </figure>
-            <div class="col-span-3">
-                <a href="{{url('javascript')}}" class="font-bold">Programming Course</a>
-                <!-- <p class="text-gray-400">April 4, 2023</p> -->
-            </div>
-        </div>
-        <div class="grid grid-cols-4 gap-3 mt-5">
-            <figure class="col-span-1">
-                <img class="h-5/6" src="{{url('assets/category/photoshop.png')}}" alt="blog" />
-            </figure>
-            <div class="col-span-3">
-                <a href="{{url('photoshop')}}"  class="font-bold">Graphic Design Course</a>
-                <!-- <p class="text-gray-400">April 4, 2023</p> -->
-            </div>
-        </div>
-        <div class="grid grid-cols-4 gap-3 mt-5">
-            <figure class="col-span-1">
-                <img class="h-5/6" src="{{url('assets/category/mep.jpeg')}}" alt="blog" />
-            </figure>
-            <div class="col-span-3">
-                <a href="{{url('hvac')}}"  class="font-bold">Mep Course</a>
-                <!-- <p class="text-gray-400">April 4, 2023</p> -->
-            </div>
-        </div>
-       
-    </div>
+   @include('components/course')
 </div>

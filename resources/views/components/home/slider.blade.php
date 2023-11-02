@@ -1,11 +1,48 @@
+<style>
+    .carousel-item {
+        position: relative;
+        overflow: hidden;
+    }
+
+    .hero {
+        animation: zoomInOut 8s infinite alternate;
+        transform-origin: center center;
+    }
+
+    @keyframes zoomInOut {
+        0% {
+            transform: scale(1);
+        }
+
+        50% {
+            transform: scale(1.2);
+            /* Adjust the scale factor for the desired zoom level */
+        }
+
+    }
+
+    @media (max-width: 768px) {
+        .hero {
+            max-height: 300px;
+            /* Adjust the maximum height for smaller screens */
+        }
+
+        .carousel-item {
+            height: 300px;
+            /* Adjust the height for smaller screens */
+        }
+    }
+</style>
+
+
 <div>
-    <div class="carousel w-full ">       
+<div class="carousel w-full">
         <!-- slider 1 -->
-        <div id="slide1" class="carousel-item relative w-full ">
+        <div id="slide1" class="carousel-item relative w-full">
             <div class="hero h-96" style="background-image: url('assets/home/child/image1.jpg');">
                 <div class="hero-content text-left text-neutral-content bg-neutral m-2">
-                    <div class="max-w-md ">
-                        <h1 class=" text-3xl font-bold">
+                    <div class="max-w-md">
+                        <h1 class="text-3xl font-bold">
                             Bright Future is Awesome Tool <br />
                             for School Website
                         </h1>
@@ -16,8 +53,8 @@
                 <div class="hero-overlay bg-opacity-60"></div>
             </div>
         </div>
-         <!-- slider 2 -->
-         <div id="slide2" class="carousel-item relative w-full">
+        <!-- slider 2 -->
+        <div id="slide2" class="carousel-item relative w-full">
             <div class="hero h-96" style="background-image: url('assets/home/child/image2.jpg');">
                 <div class="hero-overlay bg-opacity-60"></div>
                 <div class="hero-content text-right text-neutral-content">
@@ -28,12 +65,7 @@
                     </div>
                 </div>
             </div>
-
         </div>
-
-
-
-
     </div>
 </div>
 

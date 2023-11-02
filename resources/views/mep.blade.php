@@ -23,7 +23,7 @@
 
 
     <div class="my-20">
-        @section('mep-cover', 'mep Course')
+        @section('mep-cover', 'MEP Course')
         @include('components/mep/cover')
 
     
