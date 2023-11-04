@@ -13,9 +13,7 @@
                 <br /> discuss it:
             </p>
             <a href="/about">
-                <button class="btn btn-red-200 bg-gradient-to-r from-black to-red-400 text-white text-base md:text-lg lg:text-xl xl:text-2xl">
-                    +880 1950 165017
-                </button>
+            <button class="btn text-white" style="background-color: #5375e2;">Get Started</button>
             </a>
         </div>
     </div>

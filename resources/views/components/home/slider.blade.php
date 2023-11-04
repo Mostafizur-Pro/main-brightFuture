@@ -4,7 +4,7 @@
         overflow: hidden;
     }
 
-    .hero {
+    .slider-hero {
         animation: zoomInOut 8s infinite alternate;
         transform-origin: center center;
     }
@@ -22,7 +22,7 @@
     }
 
     @media (max-width: 768px) {
-        .hero {
+        .slider-hero {
             max-height: 300px;
             /* Adjust the maximum height for smaller screens */
         }
@@ -36,11 +36,11 @@
 
 
 <div>
-<div class="carousel w-full">
+    <div class="carousel w-full">
         <!-- slider 1 -->
         <div id="slide1" class="carousel-item relative w-full">
-            <div class="hero h-96" style="background-image: url('assets/home/child/image1.jpg');">
-                <div class="hero-content text-left text-neutral-content bg-neutral m-2">
+            <div class="slider-hero hero h-96" style="background-image: url('assets/home/child/image1.jpg');">
+                <div class="slider-hero-content text-left text-neutral-content bg-neutral m-2">
                     <div class="max-w-md">
                         <h1 class="text-3xl font-bold">
                             Bright Future is Awesome Tool <br />
@@ -50,14 +50,14 @@
                         <button class="btn text-white" style="background-color: #5375e2;">Get Started</button>
                     </div>
                 </div>
-                <div class="hero-overlay bg-opacity-60"></div>
+                <div class="slider-hero-overlay bg-opacity-60"></div>
             </div>
         </div>
         <!-- slider 2 -->
         <div id="slide2" class="carousel-item relative w-full">
-            <div class="hero h-96" style="background-image: url('assets/home/child/image2.jpg');">
-                <div class="hero-overlay bg-opacity-60"></div>
-                <div class="hero-content text-right text-neutral-content">
+            <div class="slider-hero hero h-96" style="background-image: url('assets/home/child/image2.jpg');">
+                <div class="slider-hero-overlay bg-opacity-60"></div>
+                <div class="slider-hero-content text-right text-neutral-content">
                     <div class="max-w-md">
                         <p>One Team, one Mission</p>
                         <h1 class="mb-5 text-5xl font-bold">Knowledge</h1>
