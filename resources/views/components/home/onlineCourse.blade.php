@@ -2,7 +2,7 @@
     <div class="hero-content grid grid-cols-2 gap-10">
 
         <div class="text-center lg:text-left">
-            <h1 class="text-xl md:text-2xl lg:text-3xl xl:text-4xl font-bold">
+            <h1 class="text-xl md:text-2xl lg:text-3xl xl:text-4xl font-bold my-5">
                 Our Most Importent<br />
                 Course List
             </h1>
@@ -12,13 +12,33 @@
             </p> -->
             <div>
                 <div>
-                    <div class="flex justify-between">
+                    <div class="flex justify-between p-5 border-2 border-accent rounded-2xl mb-5">
                         <div>
-                            <h1>Graphic Design</h1>
+                            <h1 class="text-2xl font-semibold">AutoCAD Design</h1>
                             <p>Online Course</p>
                         </div>
-
-                        <button class="btn btn-outline btn-accent">Accent</button>
+                        <button class="btn btn-outline btn-error">Join</button>
+                    </div>
+                    <div class="flex justify-between p-5 border-2 border-accent rounded-2xl mb-5">
+                        <div>
+                            <h1 class="text-2xl font-semibold">Graphic Design</h1>
+                            <p>Online Course</p>
+                        </div>
+                        <button class="btn btn-outline btn-error">Join</button>
+                    </div>
+                    <div class="flex justify-between p-5 border-2 border-accent rounded-2xl mb-5">
+                        <div>
+                            <h1 class="text-2xl font-semibold">Programming Design</h1>
+                            <p>Online Course</p>
+                        </div>
+                        <button class="btn btn-outline btn-error">Join</button>
+                    </div>
+                    <div class="flex justify-between p-5 border-2 border-accent rounded-2xl mb-5">
+                        <div>
+                            <h1 class="text-2xl font-semibold">MEP Design</h1>
+                            <p>Online Course</p>
+                        </div>
+                        <button class="btn btn-outline btn-error">Join</button>
                     </div>
                 </div>
             </div>
