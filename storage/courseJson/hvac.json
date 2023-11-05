@@ -1,0 +1,134 @@
+{
+    "course": "Heating, Ventilation, and Air Conditioning (HVAC) Course",
+    "classes": [
+      {
+        "classNumber": 1,
+        "title": "Fundamentals of HVAC Systems",
+        "topics": [
+          "Introduction to HVAC systems",
+          "Basic principles of heating, ventilation, and air conditioning",
+          "Role and importance of HVAC in building environments",
+          "Historical context and development of HVAC systems"
+        ]
+      },
+      {
+        "classNumber": 2,
+        "title": "Types and Selection of A/C System",
+        "topics": [
+          "Overview of different types of air conditioning systems",
+          "Factors to consider when selecting an A/C system",
+          "Efficiency and energy considerations",
+          "Environmental impact of different refrigerants"
+        ]
+      },
+      {
+        "classNumber": 3,
+        "title": "Ventilation System",
+        "topics": [
+          "Importance of ventilation in indoor air quality",
+          "Types of ventilation systems (natural, mechanical, mixed-mode)",
+          "Ventilation standards and regulations",
+          "Design principles for effective ventilation"
+        ]
+      },
+      {
+        "classNumber": 4,
+        "title": "Humidification and Dehumidification",
+        "topics": [
+          "Understanding humidity control in HVAC systems",
+          "Importance of maintaining proper indoor humidity levels",
+          "Methods of humidification and dehumidification",
+          "Effects of humidity on comfort and health"
+        ]
+      },
+      {
+        "classNumber": 5,
+        "title": "Central Air Conditioning Project",
+        "topics": [
+          "Overview of a central air conditioning system project",
+          "Project planning, design, and execution",
+          "Case studies of real-world projects",
+          "Challenges and best practices"
+        ]
+      },
+      {
+        "classNumber": 6,
+        "title": "Psychometric Chart Application",
+        "topics": [
+          "Introduction to psychrometrics",
+          "Using psychrometric charts for HVAC system design",
+          "Determining air properties, dew point, and enthalpy",
+          "Application in heating and cooling processes"
+        ]
+      },
+      {
+        "classNumber": 7,
+        "title": "Duct and Pipe Design",
+        "topics": [
+          "Designing air ducts and piping systems for HVAC",
+          "Material selection and sizing",
+          "Calculating pressure drops and energy losses",
+          "Duct and pipe layout and routing"
+        ]
+      },
+      {
+        "classNumber": 8,
+        "title": "Selection of Equipment",
+        "topics": [
+          "Equipment selection criteria and considerations",
+          "Role and importance of chillers, fan coil units (FCUs), air handling units (AHUs), pumps, fans, and exhaust systems",
+          "Energy efficiency and capacity considerations"
+        ]
+      },
+      {
+        "classNumber": 9,
+        "title": "Design Drawing Discussion",
+        "topics": [
+          "Review and analysis of design drawings for a specific project",
+          "Identification of key design elements",
+          "Practical application of design principles"
+        ]
+      },
+      {
+        "classNumber": 10,
+        "title": "Design Drawing Preparation",
+        "topics": [
+          "Hands-on practice in creating design drawings",
+          "Drafting techniques and software tools",
+          "Incorporating all essential components into a design drawing",
+          "Review and feedback on drawings"
+        ]
+      },
+      {
+        "classNumber": 11,
+        "title": "BOQ Preparation",
+        "topics": [
+          "Understanding the purpose and structure of a BOQ",
+          "Creating a detailed BOQ for an HVAC project",
+          "Estimating material and labor costs",
+          "Importance of accuracy in BOQ preparation"
+        ]
+      },
+      {
+        "classNumber": 12,
+        "title": "HVAC System Troubleshooting",
+        "topics": [
+          "Identifying common HVAC system issues",
+          "Troubleshooting methods and techniques",
+          "Maintenance and preventive measures",
+          "Handling emergencies and repairs"
+        ]
+      },
+      {
+        "classNumber": 13,
+        "title": "Course Summary and Discussion",
+        "topics": [
+          "Recap and review of the entire course",
+          "Open discussion, questions, and answers",
+          "Sharing practical experiences and insights",
+          "Preparing for future challenges and advancements in HVAC"
+        ]
+      }
+    ]
+  }
+  

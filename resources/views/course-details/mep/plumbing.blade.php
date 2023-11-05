@@ -2,7 +2,7 @@
 @section('mep')
 
 <div>
-@include('components/mep/fire/week')
+@include('components/mep/plumbing/week')
    
 
 </div>
