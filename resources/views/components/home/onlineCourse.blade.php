@@ -1,4 +1,4 @@
-<div class="  my-10">
+<div class="my-10">
     <div class="hero-content grid grid-cols-2 gap-10">
 
         <div class="text-center lg:text-left">
@@ -12,33 +12,33 @@
             </p> -->
             <div>
                 <div>
-                    <div class="flex justify-between p-5 border-2 border-accent rounded-2xl mb-5">
+                    <div class="flex justify-between p-2 border border-accent rounded-xl mb-2">
                         <div>
-                            <h1 class="text-2xl font-semibold">AutoCAD Design</h1>
+                            <h1 class="text-xl font-semibold">AutoCAD Design</h1>
                             <p>Online Course</p>
                         </div>
-                        <button class="btn btn-outline btn-error">Join</button>
+                        <a href="{{url('/autocad/basic-autocad')}}" class="btn btn-outline btn-error">Join</a>
                     </div>
-                    <div class="flex justify-between p-5 border-2 border-accent rounded-2xl mb-5">
+                    <div class="flex justify-between p-2 border border-accent rounded-xl mb-2">
                         <div>
-                            <h1 class="text-2xl font-semibold">Graphic Design</h1>
+                            <h1 class="text-xl font-semibold">Graphic Design</h1>
                             <p>Online Course</p>
                         </div>
-                        <button class="btn btn-outline btn-error">Join</button>
+                        <a href="{{url('/graphic/photoshop')}}" class="btn btn-outline btn-error">Join</a>
                     </div>
-                    <div class="flex justify-between p-5 border-2 border-accent rounded-2xl mb-5">
+                    <div class="flex justify-between p-2 border border-accent rounded-xl mb-2">
                         <div>
-                            <h1 class="text-2xl font-semibold">Programming Design</h1>
+                            <h1 class="text-xl font-semibold">Programming Design</h1>
                             <p>Online Course</p>
                         </div>
-                        <button class="btn btn-outline btn-error">Join</button>
+                        <a href="{{url('/programming/javascript')}}" class="btn btn-outline btn-error">Join</a>
                     </div>
-                    <div class="flex justify-between p-5 border-2 border-accent rounded-2xl mb-5">
+                    <div class="flex justify-between p-2 border border-accent rounded-xl mb-2">
                         <div>
-                            <h1 class="text-2xl font-semibold">MEP Design</h1>
+                            <h1 class="text-xl font-semibold">MEP Design</h1>
                             <p>Online Course</p>
                         </div>
-                        <button class="btn btn-outline btn-error">Join</button>
+                        <a href="{{url('/mep/hvac')}}" class="btn btn-outline btn-error">Join</a>
                     </div>
                 </div>
             </div>

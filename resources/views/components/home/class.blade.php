@@ -26,7 +26,7 @@
     .content-box {
         background: rgb(4, 193, 250);
         /* border-style: ridge; */
-            
+
         border-radius: 10px 50px 10px 10px;
         transition: all 0.5s ease-in-out;
         padding: 60px 25px 25px 25px;
@@ -35,7 +35,7 @@
 
     .content-box .class-card-title {
         display: inline-block;
-        
+
         /* color: white; */
         font-size: 20px;
         font-weight: 900;
@@ -66,7 +66,7 @@
         font-size: 14px;
         text-transform: uppercase;
         /* color: rgb(7, 185, 255); */
-        color:white;
+        color: white;
         background: #5375e2;
         padding: 0.5rem 0.7rem;
         transition: all 0.5s ease-in-out;
@@ -111,7 +111,7 @@
     <h2 class="text-3xl font-bold">Class 6th - 12th Offline & Online</h2>
 </div> -->
 <div class=" mx-auto grid grid-cols-2 sm:grid-cols-3 md:grid-cols-3 lg:grid-cols-4 ">
-   
+
     <div class="parent">
         <div class="class-card">
             <div class="content-box">
@@ -122,8 +122,8 @@
                 <span class="see-more">See More</span>
             </div>
             <div class="date-box">
-                <span class="month">JUNE</span>
-                <span class="date">29</span>
+                <span class="month">JANUARY</span>
+                <span class="date">01</span>
             </div>
         </div>
     </div>
@@ -137,8 +137,8 @@
                 <span class="see-more">See More</span>
             </div>
             <div class="date-box">
-                <span class="month">JUNE</span>
-                <span class="date">29</span>
+                <span class="month">JANUARY</span>
+                <span class="date">01</span>
             </div>
         </div>
     </div>
@@ -152,8 +152,8 @@
                 <span class="see-more">See More</span>
             </div>
             <div class="date-box">
-                <span class="month">JUNE</span>
-                <span class="date">29</span>
+                <span class="month">JANUARY</span>
+                <span class="date">01</span>
             </div>
         </div>
     </div>
@@ -167,8 +167,8 @@
                 <span class="see-more">See More</span>
             </div>
             <div class="date-box">
-                <span class="month">JUNE</span>
-                <span class="date">29</span>
+                <span class="month">JANUARY</span>
+                <span class="date">01</span>
             </div>
         </div>
     </div>

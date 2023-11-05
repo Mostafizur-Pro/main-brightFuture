@@ -4,45 +4,41 @@
         overflow: hidden;
     }
 
-    .slider-hero {
+    /* .slider-hero {
         animation: zoomInOut 8s infinite alternate;
         transform-origin: center center;
-    }
+    } */
 
     @keyframes zoomInOut {
         0% {
             transform: scale(1);
         }
 
-        50% {
-            transform: scale(1.2);
-            /* Adjust the scale factor for the desired zoom level */
+        100% {
+            transform: scale(1.1); /* Adjust the scale factor for the desired zoom level */
         }
-
     }
 
     @media (max-width: 768px) {
         .slider-hero {
-            max-height: 300px;
-            /* Adjust the maximum height for smaller screens */
+            max-height: 200px; /* Adjust the maximum height for smaller screens */
         }
 
         .carousel-item {
-            height: 300px;
-            /* Adjust the height for smaller screens */
+            height: 200px; /* Adjust the height for smaller screens */
         }
     }
 </style>
-
 
 <div>
     <div class="carousel w-full">
         <!-- slider 1 -->
         <div id="slide1" class="carousel-item relative w-full">
-            <div class="slider-hero hero h-96" style="background-image: url('assets/home/child/image1.jpg');">
+            <div class="slider-hero hero h-96" style="background-image: url('assets/home/child/image4.avif');        animation: zoomInOut 8s infinite alternate;">
+                <!-- Apply the zoom animation to the background image -->
                 <div class="slider-hero-content text-left text-neutral-content bg-neutral m-2">
-                    <div class="max-w-md">
-                        <h1 class="text-3xl font-bold">
+                    <div class="max-w-md p-5">
+                        <h1 class="text-2xl font-bold">
                             Bright Future is Awesome Tool <br />
                             for School Website
                         </h1>
@@ -55,7 +51,8 @@
         </div>
         <!-- slider 2 -->
         <div id="slide2" class="carousel-item relative w-full">
-            <div class="slider-hero hero h-96" style="background-image: url('assets/home/child/image2.jpg');">
+            <div class="slider-hero hero h-96" style="background-image: url('assets/home/child/image2.jpg');        animation: zoomInOut 8s infinite alternate;">
+                <!-- Apply the zoom animation to the background image -->
                 <div class="slider-hero-overlay bg-opacity-60"></div>
                 <div class="slider-hero-content text-right text-neutral-content">
                     <div class="max-w-md">
@@ -68,8 +65,6 @@
         </div>
     </div>
 </div>
-
-
 
 
 <script>
