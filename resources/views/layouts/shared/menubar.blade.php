@@ -7,7 +7,7 @@
         </svg>
       </label>
       <ul tabindex="0" class="menu menu-sm dropdown-content mt-3 z-50 p-2 shadow-lg bg-white rounded-lg w-52">
-        <li><a href="{{url('/home')}}">Home</a></li>
+        <li><a href="{{url('/')}}">Home</a></li>
         <li>
           <a>Page</a>
           <ul class="p-2">
@@ -37,7 +37,7 @@
 
   <div class="navbar-center hidden lg:flex">
     <ul class="menu menu-horizontal px-1">
-      <li><a href="{{url('/home')}}">Home</a></li>
+      <li><a href="{{url('/')}}">Home</a></li>
       <li class="dropdown">
         <label tabindex="0">Page
           <svg xmlns="http://www.w3.org/2000/svg" height="1em" viewBox="0 0 448 512">
