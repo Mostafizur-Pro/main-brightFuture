@@ -1,5 +1,7 @@
 <?php
 
+use App\Http\Controllers\courseList\AutocadController;
+use App\Http\Controllers\courseList\MepController;
 use Illuminate\Support\Facades\Route;
 
 /*
@@ -33,25 +35,31 @@ Route::get('/about', function () {
 
 
 Route::group(['prefix' => '/autocad', 'namespace' => 'autocad'], function () {
+    Route::get('/all-courses', [AutocadController::class, 'autocad_all_courses']);
+    Route::get('/basic-autocad-free', [AutocadController::class, 'autocad_basic_autocad_free']);
+    Route::get('/basic-autocad', [AutocadController::class, 'autocad_basic_autocad']);
+    Route::get('/advance-autocad', [AutocadController::class, 'autocad_advance_autocad']);
+    Route::get('/basic-autocad-3d', [AutocadController::class, 'autocad_basic_autocad_3d']);
+    Route::get('/basic-sketchup-3d', [AutocadController::class, 'autocad_basic_sketchup_3d']);
 
-    Route::get('/all-courses', function () {
-        return view('/course-details/all-courses/all-courses');
-    });
-    Route::get('/basic-autocad-free', function () {
-        return view('/course-details/autocad/basic-autocad-free');
-    });
-    Route::get('/basic-autocad', function () {
-        return view('/course-details/autocad/basic-autocad');
-    });
-    Route::get('/advance-autocad', function () {
-        return view('/course-details/autocad/advance-autocad');
-    });
-    Route::get('/basic-autocad-3d', function () {
-        return view('/course-details/autocad/basic-autocad-3d');
-    });
-    Route::get('/basic-sketchup-3d', function () {
-        return view('/course-details/autocad/basic-sketchup-3d');
-    });
+   // Route::get('/all-courses', function () {
+    //     return view('/course-details/all-courses/all-courses');
+    // });
+    // Route::get('/basic-autocad-free', function () {
+    //     return view('/course-details/autocad/basic-autocad-free');
+    // });
+    // Route::get('/basic-autocad', function () {
+    //     return view('/course-details/autocad/basic-autocad');
+    // });
+    // Route::get('/advance-autocad', function () {
+    //     return view('/course-details/autocad/advance-autocad');
+    // });
+    // Route::get('/basic-autocad-3d', function () {
+    //     return view('/course-details/autocad/basic-autocad-3d');
+    // });
+    // Route::get('/basic-sketchup-3d', function () {
+    //     return view('/course-details/autocad/basic-sketchup-3d');
+    // });
 });
 
 Route::group(['prefix' => '/programming', 'namespace' => 'programming'], function () {
@@ -63,19 +71,13 @@ Route::group(['prefix' => '/programming', 'namespace' => 'programming'], functio
 
 
 Route::group(['prefix' => '/mep', 'namespace' => 'mep'], function () {
-    Route::get('/hvac', function () {
-        return view('/course-details/mep/hvac');
-    });
-    Route::get('/electrical', function () {
-        return view('/course-details/mep/electrical');
-    });
-    Route::get('/plumbing', function () {
-        return view('/course-details/mep/plumbing');
-    });
-    Route::get('/fire', function () {
-        return view('/course-details/mep/fire');
-    });
+    Route::get('/hvac', [MepController::class, 'mep_hvac']);
+    Route::get('/electrical', [MepController::class, 'mep_electrical']);
+    Route::get('/plumbing', [MepController::class, 'mep_plumbing']);
+    Route::get('/fire', [MepController::class, 'mep_fire']);
 });
+
+
 Route::group(['prefix' => '/graphic', 'namespace' => 'graphic'], function () {
     Route::get('/photoshop', function () {
         return view('/course-details/graphic/photoshop');

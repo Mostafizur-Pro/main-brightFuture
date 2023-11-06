@@ -1,0 +1,116 @@
+{
+    "course": "Plumbing Design",
+    "classes": [
+      {
+        "classNumber": 0,
+        "title": "Introduction to Plumbing Interface",
+        "topics": ["Introduction to Plumbing Interface"]
+      },
+      {
+        "classNumber": 1,
+        "title": "Introduction to Plumbing Design",
+        "topics": [
+          "Introduction to Plumbing Design",
+          "Understanding the role of a Plumbing Drawing Designer",
+          "Plumbing design principles and codes",
+          "Overview of plumbing systems and components"
+        ]
+      },
+      {
+        "classNumber": 2,
+        "title": "Water Supply Systems and Pipe Sizing",
+        "topics": [
+          "Water supply systems: types, layouts, and calculations",
+          "Pipe sizing and selection",
+          "Fixture units and demand load calculations"
+        ]
+      },
+      {
+        "classNumber": 3,
+        "title": "Drainage Systems and Ventilation Design",
+        "topics": [
+          "Drainage systems: types, layouts, and calculations",
+          "Ventilation and stack design",
+          "Sizing and selection of drainage pipes and fittings"
+        ]
+      },
+      {
+        "classNumber": 4,
+        "title": "Storm-Water Management and Sustainability",
+        "topics": [
+          "Storm-water management and design considerations",
+          "Rainwater harvesting systems",
+          "Designing for sustainable plumbing"
+        ]
+      },
+      {
+        "classNumber": 5,
+        "title": "Hot Water Systems and Energy Efficiency",
+        "topics": [
+          "Hot water systems: types, sizing, and distribution",
+          "Water heaters and storage systems",
+          "Energy-efficient plumbing design"
+        ]
+      },
+      {
+        "classNumber": 6,
+        "title": "Fire Protection and Safety Design",
+        "topics": [
+          "Fire protection systems: sprinklers and standpipes",
+          "Codes and regulations for fire protection",
+          "Designing for fire safety"
+        ]
+      },
+      {
+        "classNumber": 7,
+        "title": "Fixture Selection and Installation",
+        "topics": [
+          "Plumbing fixtures and equipment selection",
+          "Accessibility considerations in plumbing design",
+          "Fixture rough-in and installation requirements"
+        ]
+      },
+      {
+        "classNumber": 8,
+        "title": "Understanding Plumbing Drawings and CAD Design",
+        "topics": [
+          "Plumbing drawings and symbols",
+          "Reading and interpreting plumbing drawings",
+          "Using CAD software for plumbing design"
+        ]
+      },
+      {
+        "classNumber": 9,
+        "title": "Designing Plumbing Systems for Diverse Building Types",
+        "topics": [
+          "Designing plumbing systems for different building types (residential, commercial, industrial)",
+          "Case studies and real-life examples"
+        ]
+      },
+      {
+        "classNumber": 10,
+        "title": "Plumbing design project",
+        "topics": [
+          "Plumbing design project: Students work on a plumbing design project based on a given scenario, incorporating all the knowledge gained throughout the course"
+        ]
+      },
+      {
+        "classNumber": 11,
+        "title": "Project Presentation and Refinement",
+        "topics": [
+          "Presenting and reviewing the plumbing design projects",
+          "Finalizing and refining the designs based on feedback"
+        ]
+      },
+      {
+        "classNumber": 12,
+        "title": "Challenges and Opportunities in Plumbing Design",
+        "topics": [
+          "Examining common challenges and troubleshooting in plumbing design",
+          "Addressing design conflicts and constraints",
+          "Career opportunities and further education in plumbing design"
+        ]
+      }
+    ]
+  }
+  

@@ -1,0 +1,164 @@
+{
+    "course": "Basic to Advanced AutoCAD 2D",
+    "classes": [
+      {
+        "classNumber": 0,
+        "title": "Module 0: Introduction to AutoCAD Interface",
+        "topics": [
+          "Introduction to AutoCAD Interface",
+          "Navigating the AutoCAD workspace",
+          "Basic Drawing and editing commands"
+        ]
+      },
+      {
+        "classNumber": 1,
+        "title": "Module 1: Introductions to AutoCAD",
+        "topics": [
+          "Introduction to Drawing Toolbar",
+          "Line, PolyLine, Rectangle, Circle, Arc commands",
+          "Basic editing commands (Erase, Copy, Move, save, etc.)"
+        ]
+      },
+      {
+        "classNumber": 2,
+        "title": "Module 2: Modifying Objects - Part I",
+        "topics": [
+          "Save as, Mirror, Rotate Commands",
+          "Introduction to the offset, trim and extend commands",
+          "Using object snaps and ortho command"
+        ]
+      },
+      {
+        "classNumber": 3,
+        "title": "Module 3: Modifying Objects - Part II",
+        "topics": [
+          "Array, Zoom, Fillet",
+          "Stretch, scale, Text",
+          "Display Settings"
+        ]
+      },
+      {
+        "classNumber": 4,
+        "title": "Module 4: Modifying Objects - Part III",
+        "topics": [
+          "Polygon, Ellipse, Explode, Block",
+          "Dimension, Linear, Angular"
+        ]
+      },
+      {
+        "classNumber": 5,
+        "title": "Module 5: Layers and Properties Setup",
+        "topics": [
+          "Unit Setup",
+          "Dimension Style Manager",
+          "Limits"
+        ]
+      },
+      {
+        "classNumber": 6,
+        "title": "Module 6: Layers and Properties Details",
+        "topics": [
+          "Managing layers",
+          "Assigning object properties (color, line type)",
+          "Layer states and layer properties",
+          "Layer filters"
+        ]
+      },
+      {
+        "classNumber": 7,
+        "title": "Module 7: Advanced Drawing Commands",
+        "topics": [
+          "Spline, Ellipse and Hatch commands",
+          "Blocks and Using Attributes",
+          "Adding and formatting text",
+          "Multiline text (MTEXT)"
+        ]
+      },
+      {
+        "classNumber": 8,
+        "title": "Module 8: Dimensioning Details",
+        "topics": [
+          "Linear and angular dimensions",
+          "Dimension styles",
+          "Dimensioning best practices"
+        ]
+      },
+      {
+        "classNumber": 9,
+        "title": "Module 9: Layouts Details",
+        "topics": [
+          "Creating and managing layouts",
+          "Setting up viewports"
+        ]
+      },
+      {
+        "classNumber": 10,
+        "title": "Module 10: External references (Xrefs)",
+        "topics": [
+          "Attaching and overlaying Xrefs",
+          "Managing Xref paths",
+          "Clipping and binding Xrefs",
+          "Xref best practices"
+        ]
+      },
+      {
+        "classNumber": 11,
+        "title": "Module 11: Printing Details",
+        "topics": [
+          "Plotting and printing drawings",
+          "Page setups and plot styles"
+        ]
+      },
+      {
+        "classNumber": 12,
+        "title": "Module 12: Advanced Drawing Tools",
+        "topics": [
+          "Polylines and splines",
+          "Revision clouds",
+          "Multileaders",
+          "Tables"
+        ]
+      },
+      {
+        "classNumber": 13,
+        "title": "Module 13: Advanced Block",
+        "topics": [
+          "Advanced techniques for working with blocks",
+          "Exploring Block attributes and dynamic blocks",
+          "Using Block libraries for efficiency"
+        ]
+      },
+      {
+        "classNumber": 14,
+        "title": "Module 14: Advanced Layout and Model",
+        "topics": [
+          "Advanced layout design techniques",
+          "Model space and paper space",
+          "Viewport configurations",
+          "Creating templates"
+        ]
+      },
+      {
+        "classNumber": 15,
+        "title": "Module 15: Advanced Text and Dimension Tools",
+        "topics": [
+          "Advanced text formatting",
+          "Text styles and fonts",
+          "Dimension style customization",
+          "Advanced dimensioning techniques"
+        ]
+      },
+      {
+        "classNumber": 16,
+        "title": "Module 16: AutoCAD for Specializations",
+        "topics": [
+          "Overview of AutoCAD for different industries",
+          "Specialized tools and features",
+          "Practical applications in various fields",
+          "Preparing for AutoCAD specialization"
+        ]
+      }
+    ]
+  }
+  
+  
