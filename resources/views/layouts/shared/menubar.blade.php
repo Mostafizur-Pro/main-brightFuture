@@ -76,8 +76,8 @@
             <details close>
               <summary>Paid Course</summary>
               <ul>
-                <li><a>Basic-Advanced AutoCAD 2D</a></li>
-                <li><a>Advanced AutoCAD 2D</a></li>
+                <li><a href="{{url('/paid/basic-advance-autocad2d')}}">Basic-Advanced AutoCAD 2D</a></li>
+                <li><a href="{{url('/paid/advance-autocad2d')}}">Advanced AutoCAD 2D</a></li>
               </ul>
             </details>
           </li>

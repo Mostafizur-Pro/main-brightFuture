@@ -29,10 +29,20 @@ Route::get('/', function () {
 Route::get('/about', function () {
     return view('/about');
 });
+
+
 Route::get('/all-courses', function () {
     return view('/allCourse');
 });
 
+Route::group(['prefix' => '/paid', 'namespace' => 'paid'], function () {
+    Route::get('/basic-advance-autocad2d', function () {
+        return view('/paidCourse/basic-advanced-autocad2d');
+    });
+    Route::get('/advance-autocad2d', function () {
+        return view('/paidCourse/advanced-autocad2d');
+    });
+});
 
 Route::group(['prefix' => '/autocad', 'namespace' => 'autocad'], function () {
     Route::get('/all-courses', [AutocadController::class, 'autocad_all_courses']);
