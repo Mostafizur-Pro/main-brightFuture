@@ -29,9 +29,9 @@ Route::get('/', function () {
 Route::get('/about', function () {
     return view('/about');
 });
-// Route::get('/course', function () {
-//     return view('/course');
-// });
+Route::get('/all-courses', function () {
+    return view('/allCourse');
+});
 
 
 Route::group(['prefix' => '/autocad', 'namespace' => 'autocad'], function () {
@@ -41,25 +41,6 @@ Route::group(['prefix' => '/autocad', 'namespace' => 'autocad'], function () {
     Route::get('/advance-autocad', [AutocadController::class, 'autocad_advance_autocad']);
     Route::get('/basic-autocad-3d', [AutocadController::class, 'autocad_basic_autocad_3d']);
     Route::get('/basic-sketchup-3d', [AutocadController::class, 'autocad_basic_sketchup_3d']);
-
-   // Route::get('/all-courses', function () {
-    //     return view('/course-details/all-courses/all-courses');
-    // });
-    // Route::get('/basic-autocad-free', function () {
-    //     return view('/course-details/autocad/basic-autocad-free');
-    // });
-    // Route::get('/basic-autocad', function () {
-    //     return view('/course-details/autocad/basic-autocad');
-    // });
-    // Route::get('/advance-autocad', function () {
-    //     return view('/course-details/autocad/advance-autocad');
-    // });
-    // Route::get('/basic-autocad-3d', function () {
-    //     return view('/course-details/autocad/basic-autocad-3d');
-    // });
-    // Route::get('/basic-sketchup-3d', function () {
-    //     return view('/course-details/autocad/basic-sketchup-3d');
-    // });
 });
 
 Route::group(['prefix' => '/programming', 'namespace' => 'programming'], function () {

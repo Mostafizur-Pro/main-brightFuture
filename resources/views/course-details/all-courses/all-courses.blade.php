@@ -2,7 +2,6 @@
 @section('allCourse')
 
 
-
 <div>
 @include('components/allCourse/latestCourses')
 @include('components/allCourse/autocad')

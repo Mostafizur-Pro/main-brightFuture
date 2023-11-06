@@ -27,7 +27,13 @@
         @section('all-courses', 'All Course')
         @include('components/allCourse/cover')
 
-        @yield('allCourse')
+
+        <!-- @yield('allCourse') -->
+        @include('components/allCourse/popularCourses')
+        <!-- @include('components/allCourse/autocad')
+        @include('components/allCourse/program')
+        @include('components/allCourse/graphic')
+        @include('components/allCourse/mep') -->
         <!--     
         <div class="grid grid-cols-4 mx-20 mt-10 gap-4">
             <div class="col-span-1">
