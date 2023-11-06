@@ -1,0 +1,138 @@
+{
+    "course": "Advanced AutoCAD 2D",
+    "classes": [
+      {
+        "classNumber": 0,
+        "title": "Module 1: Introductions to AutoCAD",
+        "topics": [
+          "Introduction to AutoCAD Interface",
+          "Learning basic navigation and commands",
+          "Create a new drawing and save it",
+          "AutoCAD file format: dxf, dwg, bak file details"
+        ]
+      },
+      {
+        "classNumber": 1,
+        "title": "Module 2: Basic Drawing Tools",
+        "topics": [
+          "Line, Polyline, Circle, Arc, Rectangle, and Ellipse",
+          "Move, Copy, Rotate, Scale, Mirror, Offset, and Trim",
+          "Array, Scale, Stretch, Group"
+        ]
+      },
+      {
+        "classNumber": 2,
+        "title": "Module 3: Object Snap and Coordinate System",
+        "topics": [
+          "Learn about object snap and how to use it effectively",
+          "Introduction to object snaps: Endpoint, Midpoint, Center, Quadrant, etc.",
+          "Unit setup, Limits setup, Dimension style manager setup"
+        ]
+      },
+      {
+        "classNumber": 3,
+        "title": "Module 4: Layers and Properties",
+        "topics": [
+          "Understanding the concept of layers and their properties",
+          "Creating and managing layers, assigning properties to objects"
+        ]
+      },
+      {
+        "classNumber": 4,
+        "title": "Module 5: Annotation and Text",
+        "topics": [
+          "Adding text to drawing: Single-line text, Multiline Text",
+          "Understanding text styles and formatting options",
+          "Creating Multileaders and callouts"
+        ]
+      },
+      {
+        "classNumber": 5,
+        "title": "Module 6: Dimensioning",
+        "topics": [
+          "Creating dimensions: Linear, Aligned, Angular, radial, Diameter, etc.",
+          "Setting dimension styles, modifying dimensions"
+        ]
+      },
+      {
+        "classNumber": 6,
+        "title": "Module 7: Block",
+        "topics": [
+          "Creating and inserting blocks",
+          "Creating dynamic blocks with different configurations and actions",
+          "Learning how to use block attributes to add information to blocks"
+        ]
+      },
+      {
+        "classNumber": 7,
+        "title": "Module 8: References",
+        "topics": [
+          "Creating and referencing",
+          "Using the Xref manager to manage external references",
+          "Using external references to link and collaborate with other drawings",
+          "Understanding the concept of Xrefs and their benefits"
+        ]
+      },
+      {
+        "classNumber": 8,
+        "title": "Module 9: Hatching and Gradients",
+        "topics": [
+          "Creating hatch patterns and gradients to fill objects",
+          "Editing and managing hatch and gradient patterns",
+          "Extra hatch add system"
+        ]
+      },
+      {
+        "classNumber": 9,
+        "title": "Module 10: Isometric Drawing",
+        "topics": [
+          "Understanding isometric projection and isometric drawing tools",
+          "Creating Isometric views for 2D drawings"
+        ]
+      },
+      {
+        "classNumber": 10,
+        "title": "Module 11: Tables and Fields",
+        "topics": [
+          "Creating tables to organize and present data",
+          "Adding fields to tables to automatically update information"
+        ]
+      },
+      {
+        "classNumber": 11,
+        "title": "Module 12: Drawing Management",
+        "topics": [
+          "Learning how to manage and organize drawing files",
+          "Understanding the importance of backup and recovery"
+        ]
+      },
+      {
+        "classNumber": 12,
+        "title": "Module 13: Advanced Layouts (Title Box)",
+        "topics": [
+          "Creating and managing multiple layouts in a drawing",
+          "Adding title blocks, borders, and annotations to layouts"
+        ]
+      },
+      {
+        "classNumber": 13,
+        "title": "Module 14: Plotting and Printing",
+        "topics": [
+          "Understanding the printing process and printer settings",
+          "Configuring page setups and plotting drawings",
+          "Export PDF and Apps"
+        ]
+      },
+      {
+        "classNumber": 14,
+        "title": "Module 15: Advance AutoCAD Setting (Customize)",
+        "topics": [
+          "AutoCAD problem and reset",
+          "Shortcut Command add",
+          "Option details"
+        ]
+      }
+    ]
+  }
+  
+  

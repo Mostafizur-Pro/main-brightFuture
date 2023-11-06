@@ -25,7 +25,11 @@ class AutocadController extends Controller
 
 
     public function autocad_advance_autocad(){
-        return view('/course-details/autocad/advance-autocad');
+        $advanceAutoCADJson = file_get_contents(storage_path('courseJson\autocad\advancedAutocad.json'));
+        $advanceAutoCAD = json_decode($advanceAutoCADJson, true);
+        // dd($advanceAutoCAD);
+        return view('/course-details/autocad/advance-autocad', ['advanceAutoCAD' => $advanceAutoCAD]);
+        // return view('/course-details/autocad/advance-autocad');
     }
     public function autocad_basic_autocad_3d(){
         return view('/course-details/autocad/basic-autocad-3d');
