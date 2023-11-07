@@ -1,5 +1,7 @@
 <?php
 
+use App\Http\Controllers\Auth\LoginController;
+use App\Http\Controllers\Auth\RegisterController;
 use App\Http\Controllers\courseList\AutocadController;
 use App\Http\Controllers\courseList\MepController;
 use Illuminate\Support\Facades\Route;
@@ -44,6 +46,7 @@ Route::group(['prefix' => '/paid', 'namespace' => 'paid'], function () {
     });
 });
 
+// AutoCAD Course
 Route::group(['prefix' => '/autocad', 'namespace' => 'autocad'], function () {
     Route::get('/all-courses', [AutocadController::class, 'autocad_all_courses']);
     Route::get('/basic-autocad-free', [AutocadController::class, 'autocad_basic_autocad_free']);
@@ -84,10 +87,23 @@ Route::group(['prefix' => '/graphic', 'namespace' => 'graphic'], function () {
 
 
 
-Route::get('/login', function () {
-    return view('/auth/login');
-});
+// Route::get('/login', function () {
+//     return view('/auth/login');
+// });
 
-Route::get('/register', function () {
-    return view('/auth/registration');
-});
+// Route::get('/register', function () {
+//     return view('/auth/registration');
+// });
+
+
+// Authentication routes
+Route::get('/login', [LoginController::class, 'showLoginForm'])->name('login');
+Route::post('/login', [LoginController::class, 'login']);
+Route::get('/logout', [LoginController::class, 'logout'])->name('logout');
+
+
+
+// Registration routes
+Route::get('/register', [RegisterController::class, 'showRegistrationForm'])->name('register');
+Route::post('/register', [RegisterController::class, 'register']);
+
