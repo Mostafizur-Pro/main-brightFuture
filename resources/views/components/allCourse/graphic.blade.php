@@ -1,41 +1,38 @@
 <div class="mx-10 my-10">
-    <div>
-        <h1 class="text-5xl mb-5 font-bold text-left">Graphic Courses</h1>
-    </div>
+    <h1 class="text-2xl font-bold mb-5">Graphic & Multimedia Courses</h1>
+    <div class="grid grid-cols-1 md:grid-cols-3 lg:grid-cols-4 gap-5">
 
-    <div class="grid grid-cols-3 gap-10">
-
-        <div class="card w-96 bg-base-100 shadow-xl">
-            <figure><img src="/assets/allCourse/image1.png" alt="Shoes" /></figure>
+        <!-- Course 1 -->
+        <div class="card bg-base-100 shadow-xl border-2">
+            <figure>
+                <img src="/assets/allCourse/image1.png" alt="Professional Graphic Design" class="p-10" />
+            </figure>
             <div class="card-body">
-                <h2 class="card-title">
-                   Adobe PhotoShop
-                    
-                </h2>
-                <p>If a dog chews shoes whose shoes does he choose?</p>
-            </div>
-        </div>
-        <div class="card w-96 bg-base-100 shadow-xl">
-            <figure><img src="/assets/allCourse/image1.png" alt="Shoes" /></figure>
-            <div class="card-body">
-                <h2 class="card-title">
-                Adobe Illustrator
-                    
-                </h2>
-                <p>If a dog chews shoes whose shoes does he choose?</p>
-            </div>
-        </div>
-        <div class="card w-96 bg-base-100 shadow-xl">
-            <figure><img src="/assets/allCourse/image1.png" alt="Shoes" /></figure>
-            <div class="card-body">
-                <h2 class="card-title">
-                Adobe Indesign
-                    
-                </h2>
-                <p>If a dog chews shoes whose shoes does he choose?</p>
+                <h2 class="card-title">Professional Graphic Design</h2>
+                <button>Details</button>
             </div>
         </div>
 
+        <!-- Course 2 -->
+        <div class="card bg-base-100 shadow-xl border-2">
+            <figure>
+                <img src="/assets/allCourse/image2.png" alt="Adobe Photoshop" class="p-10" />
+            </figure>
+            <div class="card-body">
+                <h2 class="card-title">Adobe Photoshop</h2>
+                <button>Details</button>
+            </div>
+        </div>
+
+        <!-- Course 3 -->
+        <div class="card bg-base-100 shadow-xl border-2">
+            <figure>
+                <img src="/assets/allCourse/image3.png" alt="Adobe Illustrator" class="p-10" />
+            </figure>
+            <div class="card-body">
+                <h2 class="card-title">Adobe Illustrator</h2>
+                <button>Details</button>
+            </div>
+        </div>
     </div>
 </div>
-

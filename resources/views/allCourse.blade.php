@@ -30,21 +30,14 @@
 
         <!-- @yield('allCourse') -->
         @include('components/allCourse/popularCourses')
-        <!-- @include('components/allCourse/autocad')
-        @include('components/allCourse/program')
+        @include('components/allCourse/admission')
+        @include('components/allCourse/autocad')
         @include('components/allCourse/graphic')
-        @include('components/allCourse/mep') -->
-        <!--     
-        <div class="grid grid-cols-4 mx-20 mt-10 gap-4">
-            <div class="col-span-1">
-                hi
-            </div>
-
-            <div class="col-span-3">
-               
-
-            </div>
-        </div> -->
+        @include('components/allCourse/programming')
+        @include('components/allCourse/Digital-marketing')
+        @include('components/allCourse/film-media')
+        @include('components/allCourse/mep')
+       
     </div>
 
 
