@@ -18,12 +18,14 @@
 
 </head>
 
-<body>
+
+
+<body class="bg-white">
     @include('layouts/shared/menubar')
 
 
 
-    <div class="my-20 mx-20">
+    <div class="my-20 mx-20 text-black">
 
         <div class="text-sm breadcrumbs">
             <ul>
@@ -45,10 +47,7 @@
             </ul>
         </div>
 
-
-
-
-        <div class="hero ">
+         <div class="hero ">
             <div class="hero-content flex-col lg:flex-row-reverse">
                 <div class="card flex-shrink-0 w-full max-w-sm shadow-2xl bg-base-100">
                     <figure><img src="https://cdni.iconscout.com/illustration/free/thumb/free-about-us-2061897-1740019.png" alt="Album" /></figure>

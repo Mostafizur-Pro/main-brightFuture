@@ -18,7 +18,7 @@
     
 </head>
 
-<body>
+<body class="bg-white">
     
     @include('layouts/shared/menubar')
     <div class="my-20 mx-20">

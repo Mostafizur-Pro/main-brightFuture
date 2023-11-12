@@ -18,7 +18,7 @@
     <!-- <link rel="stylesheet" href="/public/css/slider.css"> -->
 </head>
 
-<body>
+<body class="bg-white">
     @include('layouts/shared/menubar')
 
 
