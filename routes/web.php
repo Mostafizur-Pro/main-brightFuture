@@ -1,5 +1,7 @@
 <?php
 
+use App\Http\Controllers\Auth\LoginController;
+use App\Http\Controllers\Auth\RegisterController;
 use App\Http\Controllers\courseList\AutocadController;
 use App\Http\Controllers\courseList\MepController;
 use Illuminate\Support\Facades\Route;
@@ -18,6 +20,9 @@ use Illuminate\Support\Facades\Route;
 
 Route::get('/', function () {
     return view('/home');
+});
+Route::get('/dashboard', function () {
+    return view('/dashboard');
 });
 // Route::get('/home', function () {
 //     return view('/home');
@@ -83,11 +88,8 @@ Route::group(['prefix' => '/graphic', 'namespace' => 'graphic'], function () {
 
 
 
+Route::get('/login', [LoginController::class, 'user_login']);
+Route::get('/register', [RegisterController::class, 'user_register']);
 
-Route::get('/login', function () {
-    return view('/auth/login');
-});
 
-Route::get('/register', function () {
-    return view('/auth/registration');
-});
+
